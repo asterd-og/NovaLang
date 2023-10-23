@@ -62,7 +62,7 @@ int main(int argc, char** argv) {
     out << code;
     out.close();
 
-    system(stringf("clang tmp.c -o %s -Wno-implicit-int -Wno-main-return-type -Wno-implicit-function-declaration", argv[2]).c_str());
+    system(stringf("clang tmp.c -o %s -Wformat-security -Wno-implicit-int -Wno-main-return-type -Wno-implicit-function-declaration", argv[2]).c_str());
 
     remove("tmp.c");
 

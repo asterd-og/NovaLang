@@ -1,5 +1,6 @@
 int main() {
-    u8 test = 255;
-    printf("0x%x\n", test);
+    str string = "Hello World!\n";
+    printf(string);
+    printf("Blue prolang!\n\n");
     ret 0;
 }

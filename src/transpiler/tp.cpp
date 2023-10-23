@@ -17,6 +17,7 @@ std::map<std::string, std::string> nTypeToC = {
 
     {"v0", "void"},
     
+    {"int", "int"},
     {"str", "char*"}
 };
 
