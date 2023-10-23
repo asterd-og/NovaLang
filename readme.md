@@ -7,6 +7,7 @@ int main() {
     str string = "Hello World!\n";
     printf(string);
     printf("Blue prolang!\n\n");
+    ret 0;
 }
 ```
 
