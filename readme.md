@@ -3,9 +3,11 @@
 
 # Exemplos
 ```
-str string = "Hello World!\n";
-print(string);
-print("Blue prolang!\n\n");
+int main() {
+    str string = "Hello World!\n";
+    printf(string);
+    printf("Blue prolang!\n\n");
+}
 ```
 
 # Documentação

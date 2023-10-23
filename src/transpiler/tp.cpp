@@ -15,7 +15,9 @@ std::map<std::string, std::string> nTypeToC = {
     {"i32", "signed int"},
     {"i64", "signed long long"},
 
-    {"v0", "void"}
+    {"v0", "void"},
+    
+    {"str", "char*"}
 };
 
 std::string stringf(char* str, ...) {
